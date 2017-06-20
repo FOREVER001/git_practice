@@ -1,0 +1,18 @@
+https://small.slh8.com/mobile/index.php?act=user&op=myContribute
+
+
+
+
+
+gc_id====3
+06-19 15:56:15.108 21683-21683/com.azhuoinfo.reference I/System.out: json数组===[{"children":"13","guess_id":"11"},{"children":"7","guess_id":"6"},{"children":"25","guess_id":"21"},{"children":"19","guess_id":"16"}]
+06-19 15:56:15.108 21683-21683/com.azhuoinfo.reference I/System.out: path===/storage/emulated/0/compress/P70506-164411(1)(1)_compress.jpg
+
+
+
+
+   .addParams("openId", openId)
+//                .addParams("openId", "owewI0TFzVdtNLCkWMiegsSvsmgk")
+                .addParams("infos",s)
+                .addParams("gc_id",gc_id)
+                .addFile("report_image",System.currentTimeMillis()+".jpg",new File(path))
